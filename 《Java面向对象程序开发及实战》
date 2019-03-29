@@ -1,0 +1,13 @@
+《Java面向对象程序开发及实战》
+Chater 1:
+1. 1995年Java诞生
+2. Sun公司开发的Java
+3. Java开发工具包JDK
+4. bin目录：存放编译、运行java程序的可执行文件
+5. lib目录：存放Java类库文件
+6. jre目录：存放Java运行环境文件
+7. JDK环境变量设置： 系统属性》高级》环境变量-JDK安装目录
+8. 测试安装和配置：cmd》java-version
+* javac命令文件扩展名为java 、 java命令为类无扩展名
+9. Java特性：面向对象，跨平台
+
