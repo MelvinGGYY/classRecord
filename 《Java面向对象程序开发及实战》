@@ -63,6 +63,75 @@ Chapter 4:
   copyOf(array,length)           与复制的数组的类型一样
   binarySearch(array,val)        int
 
+Chapter 5:
+1.面向对象
+  Java是面向对象语言，有三大特征：封装、继承、多态；
+2.对象
+  客观描述的事物的一个实体（如：宝马x4轿车）
+  创建对象： 类名 对象名 = new 类名（）； 如 Person Tom = new Person();
+3.类
+  一组对象的集合（如：汽车）
+  定义类：【访问修饰符如public】 class 类名｛｝
+4.属性
+  表示类的固有特征
+  【访问修饰符如public】 数据类型如int 属性名； *访问修饰符可选，默认为public
+5.方法
+  对象执行操作的行为
+  【访问修饰符】 返回类型 方法名（参数，参数）｛return｝ *如返回类型为void，可不写return，参数可选；
+6.对象数组
+  定义方式类似数组
+  类名[] 对象数组名 = ｛对象，对象，对象｝ 如 Person[] person = {new Person(Tom),new Person(Tim),new Person(Alice)};
+7.参数
+  创建方法时定义的参数为形式参数
+  调用方法时传入的参数为实际参数
+8.方法重载
+  指同一个类定义多个同名方法，但是方法有不同的参数类型或者参数个数
+  特点：在同一个类，方法名相同，参数类型或数量不同，方法返回值不能作为判断方法之间是否构成重载的依据
+  如： public class person{
+
+       public String name;
+       public void speak(){
+          System.out.print("hello world");
+       }
+
+       public void speak(String lng){
+          System.out.print(lng);
+       }
+
+    }
+9.成员变量与局部变量
+  成员变量定义在方法外部，通常是类的属性
+  局部变量定义在方法内部
+  区别：作用域不同，初始值不同，局部变量可与成员变量同名并有更高的优先级
+10.构造方法
+  定义：进行一些数据的初始化
+  语法：【访问修饰符】 类名(参数){}
+  特点：没有返回值，参数可选，方法名和类名相同
+11.this关键字
+  对一个对象的默认引用，指向调用的对象
+12.封装
+   封装的实质是将类的信息隐藏在类的内部，不允许外部程序直接访问。
+   步骤：
+   a. 修改属性可见性 如public改为private
+   b. 设置getter/setter方法（Ctrl+Shift+S）
+   c. 为setter方法设置限制 如 if(gender.equals("male")||gender.equals("female")){this.gender=gender}else{Error}
+13.包
+   Java中的包机制也是封装的一种形式
+   定义包语法： pacakage 包名:
+   命名规则：网络域名逆序 如 www.baidu.net,包名 pacakage net.baidu.mypacakage
+14.访问修饰符
+   保密程度： private>protect>default>public
+   详情Page 121
+15.Statci关键字
+   用来定义一个类中的共用属性或者方法
+   用static修饰的称为静态变量或者类变量方法，没有static修饰的属性称为实例变量或方法
+   调用方法：类名.静态变量名或方法名
+   *最常与final关键字一起定义常量
+
+
+
+
+
 
 
 
