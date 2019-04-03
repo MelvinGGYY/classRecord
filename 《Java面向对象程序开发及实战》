@@ -34,3 +34,35 @@ Chapter 3:
   for(;;){}//更清晰方便控制循环的次数
   *break 中断循环  *continue 跳过循环
 
+Chapter 4:
+1.定义数组
+  数据类型[] 数组名=new 数据类型[数组长度];
+  数据类型[] 数组名=new 数据类型[]｛元素，元素};
+  *二维数组
+  数据类型[][] 数组名=new 数据类型[][]{{元素},{元素}}
+  注：根据内存分配原理，Java实际只有一维数组
+2.元素初始值
+  byte,short,int,long      0
+  float,double             0.0
+  char                     '\u0000'
+  boolean                  false
+  引用数据类型              null
+3.获得组元素
+  数组名[下标]
+4.遍历数组
+  for(int i=0;i<数组.lenght;i++){
+     输出 数组[i];
+  }
+  *for(变量 : 数组){} 简写格式
+5.数组方法
+  方法                           返回类型
+  equals(array1,array2)          boolean
+  sort(array)                    void
+  toString(array)                String
+  fill(array,val)                void
+  copyOf(array,length)           与复制的数组的类型一样
+  binarySearch(array,val)        int
+
+
+
+
