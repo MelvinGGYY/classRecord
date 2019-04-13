@@ -205,6 +205,19 @@ Chapter 8:
   3.针对接口编程，不依赖于具体实现
   4.针对扩展开放，针对改变关闭
 
+Chapter 9:
+1. 所有的异形类都是Throwable的子类，Error类和Exception类是其子类
+2. Error类表示仅靠程序本身无法恢复的严重错误
+3. Exception类表示由java程序抛出和处理的非严重错误
+4. Exception类分为RuntimeException和checked异常
+5. 常见的异常类 P165
+6. 异常处理5个关键字 try catch finally throws throw
+7. try-catch   
+8. try-cahtch-finally   * 有return，先执行finally的语句再执行return
+                        * System.exit(1)可强制退出不执行finally
+9. 使用多重catch排列顺序必须是子类到父类（一般最后是Exception）
+10. throw 和 throws区别： 作用不同，使用位置不同，内容不同
+
 
 
 
