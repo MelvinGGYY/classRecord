@@ -1,0 +1,19 @@
+Chapter 1:
+1. 集合结构图
+                     Collection                    Map
+             List                Set              Hashmap
+   ArrayList    LinkedList     Hansh Set
+2. 3大类接口 List，Set，Map
+3. Collection 接口是最基本的集合接口，存储一组不唯一、无序对象
+4. List接口存放一组不唯一、有序的对象
+5. ArrayList被称为动态数组，但不等同于数组（ArrayList可添加任何类型数据，Array添加同一类型数据）
+6. ArrayList类常用方法 Page 3 （size（）返回元素个数，get（index）返回元素，需要强转）
+7. LinkedList类是List接口的链接列表实现类，采用链表存储方式
+8. LinkedList类的常用方法包含ArrayList常用方法，Page7
+9. Set接口存储一组唯一，无序的对象
+10. Hashset特点 无序排列，非现场安全，允许元素null值
+11. Hashset常用方法
+12. iterator 迭代器，遍历集合
+13. iterator 方法 next(),hasNext()
+
+
