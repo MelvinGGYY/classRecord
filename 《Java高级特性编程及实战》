@@ -41,6 +41,9 @@ Chapter 2:
 6. 包装类 - 在设计类时为每个基本数据类型设计了一个对应的类
 7. 包装类和基本数据类型对应表 p31
 8. 用途： 1.与基本类型对应，方便对象操作； 2.包含对应基本类型操作方法
-9. 
+9. 字符类：String 类常用方法 p39
+10.字符类：StringBuffer和StringBuilder  append(str),insert(indent,str)
+11.日期类：Date类 和 Calendar类-》抽象类，需要用getInstance（）获取对象
+12.Random 类生成随机数， nextInt（int）方法
 
 
