@@ -46,4 +46,10 @@ Chapter 2:
 11.日期类：Date类 和 Calendar类-》抽象类，需要用getInstance（）获取对象
 12.Random 类生成随机数， nextInt（int）方法
 
-
+Chapter 3:
+1.I/O操作文件
+2.File类操作文件或目录属性
+3.FileInputStream 字节输入流
+4.FileOutputStream 字节输出流
+5.FileReader和BufferedReader 字符读取文本文件
+6.FileWriter和BufferedWriter 字符写入文本文件
